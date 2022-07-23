@@ -1,0 +1,8 @@
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\bin\Release\netcoreapp3.1\Desafio.Model.deps.json
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\bin\Release\netcoreapp3.1\Desafio.Model.dll
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\bin\Release\netcoreapp3.1\Desafio.Model.pdb
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Release\netcoreapp3.1\Desafio.Model.AssemblyInfoInputs.cache
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Release\netcoreapp3.1\Desafio.Model.AssemblyInfo.cs
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Release\netcoreapp3.1\Desafio.Model.csproj.CoreCompileInputs.cache
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Release\netcoreapp3.1\Desafio.Model.dll
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Release\netcoreapp3.1\Desafio.Model.pdb
