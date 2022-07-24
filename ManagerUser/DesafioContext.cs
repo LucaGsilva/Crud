@@ -13,8 +13,8 @@ namespace Desafio
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase("teste");
-            //optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=desafio;Data Source=NTBPE06K7LZ\\SQLEXPRESS");
+            //optionsBuilder.UseInMemoryDatabase("teste");
+            optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=desafio;Data Source=NTBPE06K7LZ\\SQLEXPRESS");
 
             base.OnConfiguring(optionsBuilder);
         }
