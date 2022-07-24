@@ -171,7 +171,7 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
-      "Desafio.Model/1.0.0": {
+      "Desafio.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -179,10 +179,10 @@
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/Desafio.Model.dll": {}
+          "bin/placeholder/Desafio.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Desafio.Model.dll": {}
+          "bin/placeholder/Desafio.Domain.dll": {}
         }
       }
     }
@@ -573,15 +573,15 @@
         "version.txt"
       ]
     },
-    "Desafio.Model/1.0.0": {
+    "Desafio.Domain/1.0.0": {
       "type": "project",
-      "path": "../Model/Desafio.Model.csproj",
-      "msbuildProject": "../Model/Desafio.Model.csproj"
+      "path": "../Model/Desafio.Domain.csproj",
+      "msbuildProject": "../Model/Desafio.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Desafio.Model >= 1.0.0"
+      "Desafio.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -616,8 +616,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj": {
-              "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj"
+            "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj": {
+              "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj"
             }
           }
         }

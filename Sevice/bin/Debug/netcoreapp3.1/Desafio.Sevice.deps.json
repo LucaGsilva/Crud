@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Desafio.Sevice/1.0.0": {
         "dependencies": {
-          "Desafio.Model": "1.0.0"
+          "Desafio.Domain": "1.0.0"
         },
         "runtime": {
           "Desafio.Sevice.dll": {}
@@ -161,13 +161,13 @@
           }
         }
       },
-      "Desafio.Model/1.0.0": {
+      "Desafio.Domain/1.0.0": {
         "dependencies": {
           "EntityFramework": "5.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "runtime": {
-          "Desafio.Model.dll": {}
+          "Desafio.Domain.dll": {}
         }
       }
     }
@@ -283,7 +283,7 @@
       "path": "system.diagnostics.diagnosticsource/5.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
     },
-    "Desafio.Model/1.0.0": {
+    "Desafio.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

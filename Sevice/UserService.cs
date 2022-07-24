@@ -56,7 +56,7 @@ namespace Sevice
             if (user.Id != 0)
             {
 
-                var userValid = _userRepository.FindId(user.Id).Result;
+                var userValid = await _userRepository.FindId(user.Id);
 
                 if (userValid == null) {
                     throw new ArgumentException("Não existe usuário para o id informado");
@@ -91,6 +91,11 @@ namespace Sevice
         public async Task Delete(int userId)
         {
             var oldUser = await _userRepository.FindId(userId);
+
+            if(oldUser == null)
+            {
+                throw new ArgumentException("Não existe usuário cadastrado para o id informado");
+            }
 
             oldUser.Active = false;
 

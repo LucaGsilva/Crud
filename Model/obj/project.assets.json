@@ -573,9 +573,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj",
-      "projectName": "Desafio.Model",
-      "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj",
+      "projectUniqueName": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj",
+      "projectName": "Desafio.Domain",
+      "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj",
       "packagesPath": "C:\\Users\\d.montes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\obj\\",
       "projectStyle": "PackageReference",

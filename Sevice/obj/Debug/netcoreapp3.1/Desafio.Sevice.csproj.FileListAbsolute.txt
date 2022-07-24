@@ -1,8 +1,8 @@
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Sevice.deps.json
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Sevice.dll
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Sevice.pdb
-C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Model.dll
-C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Model.pdb
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Domain.dll
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\bin\Debug\netcoreapp3.1\Desafio.Domain.pdb
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\obj\Debug\netcoreapp3.1\Desafio.Sevice.csproj.AssemblyReference.cache
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\obj\Debug\netcoreapp3.1\Desafio.Sevice.AssemblyInfoInputs.cache
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Sevice\obj\Debug\netcoreapp3.1\Desafio.Sevice.AssemblyInfo.cs

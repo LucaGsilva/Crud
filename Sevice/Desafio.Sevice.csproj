@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Model\Desafio.Model.csproj" />
+    <ProjectReference Include="..\Model\Desafio.Domain.csproj" />
   </ItemGroup>
 
 </Project>

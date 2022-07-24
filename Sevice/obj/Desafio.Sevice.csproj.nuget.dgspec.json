@@ -4,12 +4,12 @@
     "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Sevice\\Desafio.Sevice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj": {
+    "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj",
-        "projectName": "Desafio.Model",
-        "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj",
+        "projectUniqueName": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj",
+        "projectName": "Desafio.Domain",
+        "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj",
         "packagesPath": "C:\\Users\\d.montes\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -100,8 +100,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj": {
-                "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Model.csproj"
+              "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj": {
+                "projectPath": "C:\\Users\\d.montes\\Desktop\\Desafio\\ManagerUser\\Model\\Desafio.Domain.csproj"
               }
             }
           }

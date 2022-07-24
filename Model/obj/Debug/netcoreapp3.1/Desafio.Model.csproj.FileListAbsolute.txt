@@ -6,3 +6,4 @@ C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Debug\netcoreapp3.1\Desa
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Debug\netcoreapp3.1\Desafio.Model.csproj.CoreCompileInputs.cache
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Debug\netcoreapp3.1\Desafio.Model.dll
 C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Debug\netcoreapp3.1\Desafio.Model.pdb
+C:\Users\d.montes\Desktop\Desafio\ManagerUser\Model\obj\Debug\netcoreapp3.1\Desafio.Model.csproj.AssemblyReference.cache
