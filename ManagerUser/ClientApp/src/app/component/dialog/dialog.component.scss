@@ -1,0 +1,33 @@
+.action {
+ margin-top: 10%;
+}
+
+.text {
+  font-size: 14px;
+  @media (max-width: 920px) {
+    font-size: 16px;
+    text-align: justify;
+    width: 100% auto;
+  }
+  @media (max-width: 500px){
+  text-align: justify;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  z-index: 2;
+  font-size: 4vw !important;
+  }
+}
+
+
+.dialog {
+
+  .title {
+    font-weight: bold;
+  }
+
+  .line {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #DCDDDE
+  }
+}

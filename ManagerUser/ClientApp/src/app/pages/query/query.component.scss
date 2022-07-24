@@ -1,0 +1,23 @@
+.subTitle{
+    margin-top: 2%;
+}
+
+.content{
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #ccc!important;
+    box-shadow: 3px 5px 5px rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;   
+}
+
+.buttons{
+    width: 15%;
+    margin: 1%;
+}

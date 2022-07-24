@@ -1,0 +1,37 @@
+.buttons{
+    width: 15%;
+    margin: 1%;
+    margin-left: 0;
+}
+
+
+.subTitle{
+    margin-top: 2%;
+}
+
+.content{
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #ccc!important;
+    box-shadow: 3px 5px 5px rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+
+.input{
+    margin-top: 1%;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;   
+}
+
+
+.buttonBack{
+    color: #198754;
+    background-color: #fff;
+    border-color: #198754;
+}

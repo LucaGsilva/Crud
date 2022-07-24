@@ -1,0 +1,67 @@
+<div class="container">
+
+
+    <h1 class="title"><b>{{title}}</b></h1>
+
+    <div class="content">
+
+        <h1>{{subTitle}}</h1>
+
+        <div class="search">
+
+
+
+            <div class="mb-3">
+                <label>Nome</label>
+                <input type="text" class="form-control input" [formControl]="nameControl">
+
+            </div>
+
+            <div class="mb-3">
+                <label>Sobrenome</label>
+                <input type="text" class="form-control input" [formControl]="lastNameControl">
+
+            </div>
+
+            <div class="mb-3">
+                <label>E-mail</label>
+                <input type="text" class="form-control input" [formControl]="emailControl" [email]="true">
+                <mat-error *ngIf="!emailControl.valid">
+                   Adicione um e-mail válido.
+                </mat-error>
+            </div>
+
+            <div class="mb-3">
+                <label>Escolaridade </label>
+                <mat-select class="form-control input" [formControl]="schoolingControl">
+                    <mat-option *ngFor="let item of schoolingOption" [value]="item" class="field__select">
+                        {{item}}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="schoolingControl.errors?.['schoolingNull']">
+                    Selecione a escolaridade.
+                </mat-error>
+            </div>
+
+            <div class="mb-3">
+                <label>Data de Nascimento</label>
+                <input matInput type="date" [max]="maxDate" [formControl]="birthDateControl" class="form-control input">
+                <mat-error *ngIf="birthDateControl.errors?.['maxData']">
+                    Data de nascimento superior a data atual
+                </mat-error>
+                <mat-error *ngIf="birthDateControl.errors?.['nullData']">
+                    Informe a data de nascimento.
+                </mat-error>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+            <button mat-button class="btn btn-success buttons" (click)="saveUser()">Salvar</button>
+            <button mat-button class="btn btn-success buttons buttonBack" (click)="backHome()">Voltar</button>
+        </div>
+
+    </div>
+
+</div>

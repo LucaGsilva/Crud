@@ -1,0 +1,32 @@
+<div class="container">
+
+
+    <h1 class="subTitle"><b>Pesquisa</b></h1>
+
+    <div class="content">
+
+        <h1>Busca de Usuário</h1>
+
+        <div class="search">
+
+            <div class="mb-3">
+                <label>Pesquisa</label>
+                <input type="text" matTooltip="Pesquisa realizada por nome ou sobrenome" class="form-control" [formControl]="searchControl">
+
+            </div>
+
+
+        </div>
+
+        <div class="col">
+            <button mat-button class="btn btn-primary buttons" (click)="search()">Pesquisar</button>
+            <button mat-button class="btn btn-success buttons" (click)="createUser()">Novo Cadastro</button>
+        </div>
+
+    </div>
+
+
+
+    <app-table [dataSource]="dataSource"></app-table>
+
+</div>

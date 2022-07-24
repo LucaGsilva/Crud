@@ -1,0 +1,16 @@
+<div class="dialog">
+  <span class="title" style="font-size: 18px;">{{title}}</span>
+  <div class="line"></div>
+  <div class="text" innerHtml="{{text}}">
+    <!-- //{{text}} -->
+  </div>
+  <div class="action">
+    <button mat-button class="btn btn-success buttons" 
+      (click)="actionFirstButton()" *ngIf="firstNameButton" type="button">
+      {{firstNameButton}}
+    </button>
+    <button mat-button class="btn btn-success buttons" (click)="actionSecondButton()" type="button">
+      {{secondNameButton}}
+    </button>
+  </div>
+</div>

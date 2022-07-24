@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.mat-header-cell, .mat-cell{
+  text-align: center ;
+}
+
+
+.matColumn{
+  display: flex;
+  justify-content: center;
+}
